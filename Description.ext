@@ -1,1 +1,3 @@
 #include "\AC\commonDescription.inc"
+
+enableDebugConsole = 1
