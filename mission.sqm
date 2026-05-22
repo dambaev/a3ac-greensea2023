@@ -220,6 +220,7 @@ class Mission
 				angles[]={0.019378364,0,0.0020426274};
 			};
 			name="hc_1";
+			isPlayable=1;
 			id=1;
 			type="HeadlessClient_F";
 		};
@@ -232,6 +233,7 @@ class Mission
 				angles[]={6.2743759,0,6.2735367};
 			};
 			name="hc_2";
+			isPlayable=1;
 			id=2;
 			type="HeadlessClient_F";
 		};
@@ -244,6 +246,7 @@ class Mission
 				angles[]={6.2454734,0,6.2699614};
 			};
 			name="hc_3";
+			isPlayable=1;
 			id=3;
 			type="HeadlessClient_F";
 		};
@@ -1610,7 +1613,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7514.3101,6.9254136,12371.222};
-				angles[]={-0,0,0.012079485};
+				angles[]={0,0,0.012079485};
 			};
 			areaSize[]={73.047997,0,68.915001};
 			flags=1;
@@ -24530,6 +24533,7 @@ class Mission
 			flags=1;
 			id=187;
 			type="AC_ModuleACBase";
+			atlOffset=-7.6293945e-06;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -29054,6 +29058,7 @@ class Mission
 			flags=1;
 			id=221;
 			type="AC_ModuleACBase";
+			atlOffset=-7.6293945e-06;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -30251,6 +30256,7 @@ class Mission
 			flags=1;
 			id=230;
 			type="AC_ModuleACBase";
+			atlOffset=-7.6293945e-06;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -30783,6 +30789,7 @@ class Mission
 			flags=1;
 			id=234;
 			type="AC_ModuleACBase";
+			atlOffset=7.6293945e-06;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -34584,14 +34591,14 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
 								{
-									singleType="BOOL";
-									value=0;
+									singleType="STRING";
+									value="";
 								};
 							};
 						};
@@ -34636,14 +34643,14 @@ class Mission
 						};
 						class Attribute5
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
 								{
-									singleType="STRING";
-									value="";
+									singleType="BOOL";
+									value=0;
 								};
 							};
 						};
@@ -35920,7 +35927,6 @@ class Mission
 					};
 					id=397;
 					type="rhsgref_cdf_b_reg_squadleader";
-					atlOffset=4.7683716e-07;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35957,7 +35963,6 @@ class Mission
 			{
 			};
 			id=396;
-			atlOffset=4.7683716e-07;
 		};
 		class Item273
 		{
